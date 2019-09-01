@@ -1,3 +1,6 @@
+About
+------------
+
 macos-quickstart is designed to setup my MacOS workstation with both the tools I use on a regular basis.
 
 Requirements
