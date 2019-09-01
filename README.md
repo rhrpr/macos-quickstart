@@ -1,4 +1,4 @@
-osx-quickstart is designed to setup my OSX workstation with both the personal and work based tools I use on a regular basis.
+macos-quickstart is designed to setup my OSX workstation with both the personal and work based tools I use on a regular basis.
 =========
 
 Requirements
