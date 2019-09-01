@@ -1,0 +1,7 @@
+---
+# This playbook deploys homebrew, and a collection of brew packages and casks.
+
+- hosts: localhost
+
+  roles:
+    - geerlingguy.homebrew

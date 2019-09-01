@@ -1,0 +1,74 @@
+---
+# Variables here are applicable to all host groups, of which there should only be one (your local machine)
+####################################
+# HOMEBREW - geerlingguy.homebrew
+## Packages to install via OS X homebrew -> Superceeds vars in the geerlingguy.homebrew role
+##  With Options example: - { name: vim, install_options: "with-luajit,override-system-vi" }
+############################
+homebrew_uninstalled_packages: [ableton-live-standard]
+
+homebrew_installed_packages:
+  - awscli
+  - bash
+  - bower
+  - coreutils
+  - dos2unix
+  - git
+  - htop
+  - kubernetes-cli
+  - lzo
+  - node@8
+  - nvm
+  - openssl
+  - openvpn
+  - packer
+  - python
+  - python@2
+  - readline
+  - ruby
+  - ssh-copy-id
+  - telnet
+  - tmux
+  - tree
+  - wget
+homebrew_cask_apps:
+  # - ableton-live-standard9
+  - atom
+  - balenaetcher
+  - banshee
+  - beyond-compare
+  - ccleaner
+  - ckb-next
+  - clover-configurator
+  - cake
+  - discord
+  - disk-inventory-x
+  - docker
+  - dropbox
+  - gimp
+  - google-backup-and-sync
+  - google-chrome
+  - hp-eprint
+  - ibm-cloud-cli
+  - iterm2
+  - keepassxc
+  - macdown
+  - osxfuse
+  - plistedit-pro
+  - sequel-pro
+  - slack
+  - soundcloud-downloader
+  - spotify
+  - spotify-notifications
+  - sublime-text
+  - transmisson
+  - virtualbox
+  - virtualbox-extension-pack
+  - vlc
+  - vlc-webplugin
+  - vlcstreamer
+  - vmware-remote-console
+############################
+## All Done!
+# End HOMEBREW - geerlingguy.homebrew
+####################################
