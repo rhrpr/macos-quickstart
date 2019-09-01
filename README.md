@@ -1,5 +1,4 @@
-macos-quickstart is designed to setup my OSX workstation with both the personal and work based tools I use on a regular basis.
-=========
+macos-quickstart is designed to setup my MacOS workstation with both the personal and work based tools I use on a regular basis.
 
 Requirements
 ------------
@@ -23,9 +22,12 @@ elliotweiser.osx-command-line-tools
 Usage
 ------------
 
-Check the list of Packages in /group_vars/all and set to your preferences. 
+Check the list of Packages in /group_vars/all and set to your preferences.
+
 Check for existing brew packages using [Search Brew](http://searchbrew.com/)
+
 Check for existing casks in [The Brew Casks Repo](https://github.com/Homebrew/homebrew-cask/tree/master/Casks)
+
 Run as BECOME sudo to install packages via brew
 
 `ansible-playbook playbook.yml -K`
